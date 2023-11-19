@@ -1,11 +1,15 @@
-# DS4Motion_Unity
-This project shows how you can get the motion sensor data of your DualShock4 controller using Unity's new Input System.
+# GyroController_Unity
+This project is a fork of DS4Motion_Unity, that I updated for a personal project to add DualSense support. Feel free to use this, or make pull requests to improve it - it's possible that something's completely wrong as I didn't really have any idea what I was doing.
+It doesn't implement any of the other features, only gyro and accelerometer.
 
-## Read more
-English: https://blog.sg4yk.com/dual_shock_motion_in_unity_en.html  
-Simplified Chinese: https://blog.sg4yk.com/dual_shock_motion_in_unity.html  
+## Supported controllers
+DualShock 4 (USB only)
+DualSense (USB only)
+
+## More info
+https://web.archive.org/web/20201113061049/https://connect.unity.com/p/get-motion-sensors-data-of-dualshock-4-using-the-new-input-system
 
 
-**Notice**  
+**Note**  
 + The new Input System requires Unity 2019.1 or later.  
-+ This project was configured usign Unity 2019.3.1f1
++ This project is using Unity 2022.3.8f1, but it'll probably work on older/newer versions too.
